@@ -1,9 +1,10 @@
 module.exports = {
     client: 'mysql',
     connection: {
+        host: 'localhost',
         database: 'apidatabase',
         user: 'root',
-        password: ''
+        password: '',
     },
     pool: {
         min: 2,
